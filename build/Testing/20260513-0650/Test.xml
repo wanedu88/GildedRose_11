@@ -25,11 +25,46 @@
 	ProcessorClockFrequency="3700.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 16:09 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778656197</StartTestTime>
-		<TestList/>
-		<EndDateTime>May 13 16:09 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778656197</EndTestTime>
+		<StartDateTime>May 13 16:18 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778656696</StartTestTime>
+		<TestList>
+			<Test>./GildedRoseTest.Sulfuras2</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>GildedRoseTest.Sulfuras2</Name>
+			<Path>.</Path>
+			<FullName>./GildedRoseTest.Sulfuras2</FullName>
+			<FullCommandLine>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.Sulfuras2" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778656696.032042</StartTestTime>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.010595</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.Sulfuras2" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUk1vwjAMvedX+DiktaJsu1TigMaHkCY0tWw70AqF1kCkNOnyAdu/X9oiRtGY2HyIYvvZfn5JZIVgYgMFZeKmA2slC3gMk+HoNZkwnmMeSY3LIEhW1rnJMsdSJxspNxwNauNplZ24Se1Wt2XV0M8yMpMGQ5jUEJi7DKwZN6igD98DqrgfW762iuoeWfSPlkJ0YBiAqasrhoe7tsygTxbe0VKYcLmivMmj2DElRYHCYdF4tjwDn/ZssyELiF5mUFt6memPUmVlmdRqnJW5eHgfhDCmjFuFZPRRYmYwB3y3lDPzCXINZosaYUe5RR0SAC9wBy1L361a6EU39TVyPhWkYva2ZdkWmA7B65F/kOn9kczDOZcD9ozMHXHywXgwfRoNf5MPbrpQ6M61b9LAwUhDeYdc9+wGqfJyuRftT3XpM4Giwm/PcZs8D+K42aRbY7Xf3q/pcAuc6UrBFXK5D6+TgBBXfYDNR/GcfAEQPCgN====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 13 16:18 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778656696</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
