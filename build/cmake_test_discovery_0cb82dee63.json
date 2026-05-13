@@ -1,10 +1,10 @@
 {
-  "tests": 7,
+  "tests": 10,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 7,
+      "tests": 10,
       "testsuite": [
         {
           "name": "Foo",
@@ -40,6 +40,21 @@
           "name": "AgedBrie2",
           "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
           "line": 53
+        },
+        {
+          "name": "backstange1",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "backstange2",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 71
+        },
+        {
+          "name": "backstange3",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 80
         }
       ]
     }
