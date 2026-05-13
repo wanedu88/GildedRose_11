@@ -1,20 +1,20 @@
-Start testing: May 13 16:33 대한민국 표준시
+Start testing: May 13 17:01 대한민국 표준시
 ----------------------------------------------------------
-10/10 Testing: GildedRoseTest.backstange3
-10/10 Test: GildedRoseTest.backstange3
-Command: "C:/DEV/GildedRose_11/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.backstange3" "--gtest_also_run_disabled_tests"
+17/22 Testing: BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22)
+17/22 Test: BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22)
+Command: "C:/DEV/GildedRose_11/build/gilded_rose_test.exe" "--gtest_filter=BackstageBoundary/BackstagePassTest.QualityUpdate/3" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_11/build
-"GildedRoseTest.backstange3" start time: May 13 16:33 대한민국 표준시
+"BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22)" start time: May 13 17:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_11\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GildedRoseTest.backstange3
+Note: Google Test filter = BackstageBoundary/BackstagePassTest.QualityUpdate/3
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from GildedRoseTest
-[ RUN      ] GildedRoseTest.backstange3
-[       OK ] GildedRoseTest.backstange3 (0 ms)
-[----------] 1 test from GildedRoseTest (0 ms total)
+[----------] 1 test from BackstageBoundary/BackstagePassTest
+[ RUN      ] BackstageBoundary/BackstagePassTest.QualityUpdate/3
+[       OK ] BackstageBoundary/BackstagePassTest.QualityUpdate/3 (0 ms)
+[----------] 1 test from BackstageBoundary/BackstagePassTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -23,8 +23,8 @@ Note: Google Test filter = GildedRoseTest.backstange3
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.backstange3" end time: May 13 16:33 대한민국 표준시
-"GildedRoseTest.backstange3" time elapsed: 00:00:00
+"BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22)" end time: May 13 17:01 대한민국 표준시
+"BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22)" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 16:33 대한민국 표준시
+End testing: May 13 17:01 대한민국 표준시

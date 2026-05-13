@@ -5,4 +5,16 @@ GildedRoseTest.Sulfuras1 4 0.0104881
 GildedRoseTest.backstange1 1 0.0090293
 GildedRoseTest.backstange2 1 0.0098539
 GildedRoseTest.backstange3 1 0.0115071
+GildedRoseTest.QualityNeverNegative 1 0.0118003
+GildedRoseTest.AgedBrieQualityMax50 1 0.014084
+GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 1 0.0124746
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 1 0.0116968
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 1 0.0146828
+BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 1 0.0128951
+BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 1 0.012062
+BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 1 0.0103813
+BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 1 0.0122659
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 1 0.0124381
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 1 0.011826
+BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 1 0.0126233
 ---
