@@ -1,7 +1,18 @@
 {
-  "tests": 22,
+  "tests": 23,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "ApprovalTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PrintTextFixture",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\ApprovalTest.cpp",
+          "line": 61
+        }
+      ]
+    },
     {
       "name": "GildedRoseTest",
       "tests": 13,

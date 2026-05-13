@@ -12,6 +12,12 @@
   "output": "CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj"
 },
 {
+  "directory": "C:/DEV/GildedRose_11/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gilded_rose_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\gilded_rose_test.dir\\test\\ApprovalTest.cpp.obj -c C:\\DEV\\GildedRose_11\\cpp\\test\\ApprovalTest.cpp",
+  "file": "C:/DEV/GildedRose_11/cpp/test/ApprovalTest.cpp",
+  "output": "CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj"
+},
+{
   "directory": "C:/DEV/GildedRose_11/build/_deps/googletest-build/googlemock",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\DEV\\GildedRose_11\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "C:/DEV/GildedRose_11/build/_deps/googletest-src/googlemock/src/gmock-all.cc",

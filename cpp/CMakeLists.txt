@@ -20,7 +20,9 @@ target_include_directories(gilded_rose PUBLIC include)
 
 # Tests
 enable_testing()
-add_executable(gilded_rose_test test/GildedRoseTest.cpp)
+add_executable(gilded_rose_test test/GildedRoseTest.cpp test/ApprovalTest.cpp)
+
+
 target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
 
 include(GoogleTest)
