@@ -27,7 +27,7 @@ TEST(GildedRoseTest, noname2) {
 
 // 전설 아이템은 변하지 않음
 TEST(GildedRoseTest, Sulfuras1) {
-  std::vector<Item> items = {Item("Sulfuras", 0, 5)};
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 0, 5)};
   GildedRose app(items);
   app.updateQuality();
   EXPECT_EQ(0, app.items[0].sellIn);
@@ -35,7 +35,7 @@ TEST(GildedRoseTest, Sulfuras1) {
 }
 // 기한 마감 후에도 변하지 않음
 TEST(GildedRoseTest, Sulfuras2) {
-  std::vector<Item> items = {Item("Sulfuras", -1, 5)};
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", -1, 5)};
   GildedRose app(items);
   app.updateQuality();
   EXPECT_EQ(-1, app.items[0].sellIn);

@@ -19,17 +19,46 @@
 	ProcessorCacheSize="96"
 	NumberOfLogicalCPU="8"
 	NumberOfPhysicalCPU="4"
-	TotalVirtualMemory="2887"
+	TotalVirtualMemory="3922"
 	TotalPhysicalMemory="12221"
 	LogicalProcessorsPerPhysical="2"
 	ProcessorClockFrequency="3700.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 16:23 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778657012</StartTestTime>
-		<TestList/>
-		<EndDateTime>May 13 16:23 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778657012</EndTestTime>
+		<StartDateTime>May 13 16:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778657330</StartTestTime>
+		<TestList>
+			<Test>./GildedRoseTest.Sulfuras1</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>GildedRoseTest.Sulfuras1</Name>
+			<Path>.</Path>
+			<FullName>./GildedRoseTest.Sulfuras1</FullName>
+			<FullCommandLine>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.Sulfuras1" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778657330.636598</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.008756</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.Sulfuras1" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE1rwzAMhu/+FTo2h5jlWuhhrCWHQjeSbpc4BDdRgsGxiy13f3/5KF0zWKlOkvVY7ytlwRhlOuilMqsIWmd7eFuL7e5LpEo32GTWY5Uk4hSGUlQNnr3orO00EnqKvavvSjGVY1aNA3lds4MlXEM6IXAcOtAqTehgA78C4zvPg26Dkz5hxeYWJWRXhwnQ9Ht0eM19UIScFfEtSki1PUk999FclLOmRzOwSHE4/4HvZy7dsAKyzwNMUT5wOhPwvn9AweoFeh89Kz3jQJakjthz2xFKFzf22yxv99/NwEnDlzrDJh+veb7bjvvOLGc/NKyvOA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 13 16:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778657330</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

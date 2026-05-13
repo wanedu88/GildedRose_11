@@ -1,3 +1,30 @@
-Start testing: May 13 16:23 대한민국 표준시
+Start testing: May 13 16:28 대한민국 표준시
 ----------------------------------------------------------
-End testing: May 13 16:23 대한민국 표준시
+4/7 Testing: GildedRoseTest.Sulfuras1
+4/7 Test: GildedRoseTest.Sulfuras1
+Command: "C:/DEV/GildedRose_11/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.Sulfuras1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_11/build
+"GildedRoseTest.Sulfuras1" start time: May 13 16:28 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_11\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.Sulfuras1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.Sulfuras1
+[       OK ] GildedRoseTest.Sulfuras1 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.Sulfuras1" end time: May 13 16:28 대한민국 표준시
+"GildedRoseTest.Sulfuras1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 16:28 대한민국 표준시
