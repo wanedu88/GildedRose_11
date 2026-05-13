@@ -1,0 +1,5 @@
+{
+    // "coverage-gutters.lcovname": "build/lcov.info"
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/cpp"
+}

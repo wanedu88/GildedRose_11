@@ -1,0 +1,7 @@
+add_test([=[GildedRoseTest.Foo]=]  C:/DEV/GildedRose_11/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.Foo]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GildedRoseTest.Foo]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\GildedRose_11\cpp\test\GildedRoseTest.cpp:4]==] WORKING_DIRECTORY C:/DEV/GildedRose_11/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GildedRoseTest.noname1]=]  C:/DEV/GildedRose_11/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.noname1]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GildedRoseTest.noname1]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\GildedRose_11\cpp\test\GildedRoseTest.cpp:11]==] WORKING_DIRECTORY C:/DEV/GildedRose_11/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GildedRoseTest.noname2]=]  C:/DEV/GildedRose_11/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.noname2]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GildedRoseTest.noname2]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\GildedRose_11\cpp\test\GildedRoseTest.cpp:20]==] WORKING_DIRECTORY C:/DEV/GildedRose_11/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  gilded_rose_test_TESTS GildedRoseTest.Foo GildedRoseTest.noname1 GildedRoseTest.noname2)

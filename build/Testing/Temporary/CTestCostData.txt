@@ -1,0 +1,3 @@
+GildedRoseTest.noname 1 0.0148704
+---
+GildedRoseTest.noname

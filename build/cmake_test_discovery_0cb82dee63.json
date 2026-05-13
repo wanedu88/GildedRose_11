@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "GildedRoseTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "Foo",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "noname1",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 11
+        },
+        {
+          "name": "noname2",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 20
+        }
+      ]
+    }
+  ]
+}
