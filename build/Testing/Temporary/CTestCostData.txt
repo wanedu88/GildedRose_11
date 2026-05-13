@@ -1,4 +1,4 @@
 GildedRoseTest.noname 1 0.0148704
 GildedRoseTest.Sulfuras2 0 0
+GildedRoseTest.AgedBrie1 1 0.0111753
 ---
-GildedRoseTest.Sulfuras2

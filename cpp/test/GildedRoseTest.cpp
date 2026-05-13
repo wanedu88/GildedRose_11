@@ -41,3 +41,19 @@ TEST(GildedRoseTest, Sulfuras2) {
   EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(5, app.items[0].quality);
 }
+// 기한 지난 Aged Brie는 품질 +2
+TEST(GildedRoseTest, AgedBrie1) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(2, app.items[0].quality);
+}
+// Aged Brie품질 상한 테스트
+TEST(GildedRoseTest, AgedBrie2) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(50, app.items[0].quality);
+}
