@@ -1,5 +1,5 @@
 {
-  "tests": 23,
+  "tests": 26,
   "name": "AllTests",
   "testsuites": [
     {
@@ -81,6 +81,27 @@
           "name": "NormalItemDegradesTwiceAfterSellDate",
           "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
           "line": 106
+        }
+      ]
+    },
+    {
+      "name": "FoodBeverageTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DegradesTwiceAsNormal",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 125
+        },
+        {
+          "name": "DegradesFourTimesAfterSellIn",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 132
+        },
+        {
+          "name": "QualityNeverBelowZero",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 138
         }
       ]
     },

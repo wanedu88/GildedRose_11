@@ -19,5 +19,7 @@ BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 1 0.011826
 BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 1 0.0126233
 ApprovalTest.PrintTextFixture 1 0.009799
 GildedRoseTest.noname2 0 0
+FoodBeverageTest.DegradesTwiceAsNormal 1 0.0106197
+FoodBeverageTest.DegradesFourTimesAfterSellIn 1 0.0099218
+FoodBeverageTest.QualityNeverBelowZero 1 0.0097054
 ---
-GildedRoseTest.noname2

@@ -25,11 +25,40 @@
 	ProcessorClockFrequency="3700.000000"
 	>
 	<Testing>
-		<StartDateTime>May 14 22:23 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778765035</StartTestTime>
-		<TestList/>
-		<EndDateTime>May 14 22:23 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778765035</EndTestTime>
+		<StartDateTime>May 14 22:38 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778765923</StartTestTime>
+		<TestList>
+			<Test>./FoodBeverageTest.QualityNeverBelowZero</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>FoodBeverageTest.QualityNeverBelowZero</Name>
+			<Path>.</Path>
+			<FullName>./FoodBeverageTest.QualityNeverBelowZero</FullName>
+			<FullCommandLine>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=FoodBeverageTest.QualityNeverBelowZero" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778765923.313750</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.009705</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=FoodBeverageTest.QualityNeverBelowZero" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNULFuwjAQ3f0VN5IhUbMiMZQCGSqlENoOjaPIJEdkyfEh2wH17xsnCAFSpdx0z/fu+d3LOq2lbqAVUs8COBpq4W3OV+tvnkhVY52RxTKO+aHrIS9rPFneEDUKHVoXWlPdQT5A35VeMKoqlpLDOSQDBT77CRylcmhgARuieolnNKJBP4l2nVDS/ab+bYmKLj9oiOWLWxWQXf3G4AYt7/fa2046jFge3qqARNFBqHGO+iwN6RZ1z0UXdqcn8r3mszeWQ/aVwlDFZOcjHz7eJ+/A7AVaG0w3Ni6AIydUwKZd71CYsKaLfsz2v0zBCB09/tNftn3d79crn8bIjdgfex7CDw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 14 22:38 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778765923</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

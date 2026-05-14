@@ -122,6 +122,25 @@ TEST_P(BackstagePassTest, QualityUpdate) {
   gr.updateQuality();
   EXPECT_EQ(expectedQ, items[0].quality);
 }
+TEST(FoodBeverageTest, DegradesTwiceAsNormal) {
+  std::vector<Item> items = {Item("[F&B] Bread", 5, 20)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(4, items[0].sellIn);
+  EXPECT_EQ(18, items[0].quality); // 20 -2 = 18
+}
+TEST(FoodBeverageTest, DegradesFourTimesAfterSellIn) {
+  std::vector<Item> items = {Item("[F&B] Milk", 0, 20)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(16, items[0].quality); // 20 -4 = 16
+}
+TEST(FoodBeverageTest, QualityNeverBelowZero) {
+  std::vector<Item> items = {Item("[F&B] Water", 0, 1)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(0, items[0].quality); // 0 유지
+}
 
 INSTANTIATE_TEST_SUITE_P(
     BackstageBoundary, BackstagePassTest,
