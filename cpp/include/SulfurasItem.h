@@ -1,9 +1,8 @@
 #pragma once
-#include "Item.h"
-class SulfurasItem {
-  Item &item_;
-
+//  #include "Item.h"
+#include "GildedRoseItem.h"
+class SulfurasItem : public GildedRoseItem {
 public:
-  explicit SulfurasItem(Item &item) : item_(item) {}
-  void updateQuality() { /* 변화 없음 */ }
+  using GildedRoseItem::GildedRoseItem;
+  void updateQuality() override { /* 변화 없음 */ }
 };
