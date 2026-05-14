@@ -25,40 +25,11 @@
 	ProcessorClockFrequency="3700.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 17:19 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778660359</StartTestTime>
-		<TestList>
-			<Test>./ApprovalTest.PrintTextFixture</Test>
-		</TestList>
-		<Test Status="passed">
-			<Name>ApprovalTest.PrintTextFixture</Name>
-			<Path>.</Path>
-			<FullName>./ApprovalTest.PrintTextFixture</FullName>
-			<FullCommandLine>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=ApprovalTest.PrintTextFixture" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778660359.024752</StartTestTime>
-			<Results>
-				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.009799</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Processors">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Completion Status">
-					<Value>Completed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV\GildedRose_11\build\gilded_rose_test.exe "--gtest_filter=ApprovalTest.PrintTextFixture" "--gtest_also_run_disabled_tests"</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Environment">
-					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
-				</NamedMeasurement>
-				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNkEGPgjAQhe/9FXOUA2S5mngwq8vBRA26e6GEVBhJk9KSdlB//lIwBjfZ6Jzmdb68vpm001rqGhoh9SyAszUNfM75av3DE6kqrFLjsIhjfup6yYsKW8drY2qFhI5CZ8uJ5IP0XeENo7JkW0M4h2RA4NhP4CwVoYUFLNvWmotQ/jXaW6npiDf6kjfqLLJs8agc0nvMGGiw8DHvveskYcSy8FE5JMqchBrnqC/SGt2g7lmksGv/wFPPaSSWQfq9haHyV2FHDHabVyjMPqBxwXsRRhjIkFABe29HQmHDylz18wX/uxxYoaPnf/pl9svDYb3ye49sxH4B5Be1YA==</Value>
-				</Measurement>
-			</Results>
-		</Test>
-		<EndDateTime>May 13 17:19 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778660359</EndTestTime>
+		<StartDateTime>May 14 15:16 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778739389</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 14 15:16 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778739389</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
