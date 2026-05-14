@@ -3,8 +3,8 @@ GildedRoseTest.Sulfuras2 1 0.0106855
 GildedRoseTest.AgedBrie1 1 0.0111753
 GildedRoseTest.Sulfuras1 4 0.0104881
 GildedRoseTest.backstange1 1 0.0090293
-GildedRoseTest.backstange2 1 0.0098539
-GildedRoseTest.backstange3 1 0.0115071
+GildedRoseTest.backstange2 2 0.0106211
+GildedRoseTest.backstange3 2 0.0111106
 GildedRoseTest.QualityNeverNegative 1 0.0118003
 GildedRoseTest.AgedBrieQualityMax50 1 0.014084
 GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 1 0.0124746
@@ -18,4 +18,6 @@ BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 1 0.0124381
 BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 1 0.011826
 BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 1 0.0126233
 ApprovalTest.PrintTextFixture 1 0.009799
+GildedRoseTest.noname2 0 0
 ---
+GildedRoseTest.noname2
