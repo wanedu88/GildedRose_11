@@ -1,25 +1,28 @@
 GildedRoseTest.noname 1 0.0148704
-GildedRoseTest.Sulfuras2 1 0.0106855
-GildedRoseTest.AgedBrie1 1 0.0111753
-GildedRoseTest.Sulfuras1 4 0.0104881
-GildedRoseTest.backstange1 1 0.0090293
-GildedRoseTest.backstange2 2 0.0106211
-GildedRoseTest.backstange3 2 0.0111106
-GildedRoseTest.QualityNeverNegative 1 0.0118003
-GildedRoseTest.AgedBrieQualityMax50 1 0.014084
-GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 1 0.0124746
-BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 1 0.0116968
-BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 1 0.0146828
-BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 1 0.0128951
-BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 1 0.012062
-BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 1 0.0103813
-BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 1 0.0122659
-BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 1 0.0124381
-BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 1 0.011826
-BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 1 0.0126233
-ApprovalTest.PrintTextFixture 1 0.009799
-GildedRoseTest.noname2 0 0
-FoodBeverageTest.DegradesTwiceAsNormal 1 0.0106197
-FoodBeverageTest.DegradesFourTimesAfterSellIn 1 0.0099218
-FoodBeverageTest.QualityNeverBelowZero 1 0.0097054
+GildedRoseTest.Sulfuras2 2 0.0100177
+GildedRoseTest.AgedBrie1 2 0.0104525
+GildedRoseTest.Sulfuras1 5 0.0103922
+GildedRoseTest.backstange1 2 0.0090969
+GildedRoseTest.backstange2 3 0.0105437
+GildedRoseTest.backstange3 3 0.0106212
+GildedRoseTest.QualityNeverNegative 2 0.0108563
+GildedRoseTest.AgedBrieQualityMax50 2 0.0128917
+GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 2 0.0113825
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 2 0.0109509
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 2 0.0136003
+BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 2 0.0122917
+BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 2 0.0113109
+BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 2 0.0110226
+BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 2 0.011751
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 2 0.0113689
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 2 0.0116982
+BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 2 0.011425
+ApprovalTest.PrintTextFixture 2 0.0117781
+GildedRoseTest.noname2 1 0.0105503
+FoodBeverageTest.DegradesTwiceAsNormal 2 0.0359777
+FoodBeverageTest.DegradesFourTimesAfterSellIn 2 0.0100698
+FoodBeverageTest.QualityNeverBelowZero 2 0.0105122
+GildedRoseTest.AgedBrie2 1 0.0096471
+GildedRoseTest.Foo 0 0
+GildedRoseTest.noname1 1 0.010369
 ---

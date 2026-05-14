@@ -6,7 +6,6 @@
 #include "NormalItem.h"
 #include "SulfurasItem.h"
 
-
 #include "Constans.h"
 
 #include <memory>
@@ -28,8 +27,9 @@ std::unique_ptr<GildedRoseItem> createItem(Item &item) {
 GildedRose::GildedRose(std::vector<Item> &items) : items(items) {}
 void GildedRose::updateQuality() {
   for (auto &item : items) {
-    auto gildedItem = createItem(item); // Factory
-    gildedItem->updateQuality();
+    // auto gildedItem = createItem(item); // Factory
+    // gildedItem->updateQuality();
+    createItem(item)->updateQuality();
     updateSellIn(item);
   }
 }
