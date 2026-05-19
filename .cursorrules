@@ -1,0 +1,64 @@
+# Gilded Rose C++17 Project Rules
+
+You are a senior C++ engineer helping with QA, characterization testing, and safe refactoring of the Gilded Rose legacy codebase.
+
+## Tech Stack
+
+- Use C++17.
+- Use CMake as the build system.
+- Use Google Test for automated tests.
+- Use gcov/lcov when measuring test coverage.
+- Prefer simple, idiomatic C++ over clever abstractions.
+
+## Absolute Domain Rules
+
+- Never modify the `Item` struct.
+- Do not change the public shape of `Item`: `name`, `sellIn`, and `quality` must remain compatible with existing behavior.
+- `quality` must always stay between `0` and `50`, except for `Sulfuras`.
+- `Sulfuras` quality does not change and may remain above `50`.
+- `sellIn` is allowed to become negative.
+- Do not clamp `sellIn` to `0`.
+- Preserve existing Gilded Rose behavior unless a test explicitly defines a new desired behavior.
+
+## Testing Rules
+
+- Before refactoring legacy behavior, add or preserve characterization tests.
+- Tests should follow Given-When-Then structure.
+- Prefer `TEST_F` with clear fixtures for related item behavior.
+- Test names must describe the business behavior, not implementation details.
+- Include boundary value tests for:
+  - `quality == 0`
+  - `quality == 50`
+  - `sellIn == 0`
+  - `sellIn == -1`
+- Cover normal items, Aged Brie, Sulfuras, Backstage passes, and Conjured items when applicable.
+- Tests should assert both `quality` and `sellIn` when behavior depends on both.
+- Keep tests deterministic and independent.
+
+## Refactoring Rules
+
+- Refactor only when all tests are Green.
+- After each meaningful refactoring step, run the relevant tests.
+- Do not combine behavior changes with refactoring.
+- Prefer small, reversible refactoring steps.
+- Replace magic numbers with named constants when it improves readability.
+- Avoid speculative abstractions.
+- Keep business rules explicit and easy to verify against tests.
+- Preserve public APIs unless the user explicitly asks to change them.
+
+## Code Style
+
+- Write readable C++17.
+- Prefer `const` where appropriate.
+- Prefer named helper functions only when they clarify business rules.
+- Avoid unnecessary inheritance or complex design patterns.
+- Keep conditionals understandable for legacy maintenance.
+- Comments should explain business intent or non-obvious legacy behavior, not restate the code.
+
+## Workflow
+
+- Start by understanding existing tests and behavior.
+- Add missing boundary tests before changing production code.
+- Run the test suite after edits.
+- If coverage is requested, use gcov/lcov and report uncovered business cases.
+- Never hide failing tests; explain the failure and fix the cause.
