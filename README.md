@@ -47,3 +47,13 @@ ctest --test-dir build
 - unit test 내용 : 문서상에 나타난 동작들 확인
 
 ### unit test VS golden-master test 비교
+
+### To-Do List
+-  GildedRose.h, Item.h, GildedRose.cpp 코드정리
+-  GildedRose.cpp 조건분리
+- 메서드추출
+- 클래스분리
+- 추상화& 다형성
+- 클래스다이어그램& 변수명통일
+- Food & Beverage (F&B) 아이템 추가
+- 추가리팩토링(변수선언분리→ 중복제거→ Inline)

@@ -1,0 +1,169 @@
+{
+  "tests": 26,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ApprovalTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PrintTextFixture",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\ApprovalTest.cpp",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "name": "GildedRoseTest",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "Foo",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "noname1",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 11
+        },
+        {
+          "name": "noname2",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 20
+        },
+        {
+          "name": "Sulfuras1",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "Sulfuras2",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 37
+        },
+        {
+          "name": "AgedBrie1",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 45
+        },
+        {
+          "name": "AgedBrie2",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 53
+        },
+        {
+          "name": "backstange1",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "backstange2",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 71
+        },
+        {
+          "name": "backstange3",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 80
+        },
+        {
+          "name": "QualityNeverNegative",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 92
+        },
+        {
+          "name": "AgedBrieQualityMax50",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 99
+        },
+        {
+          "name": "NormalItemDegradesTwiceAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 106
+        }
+      ]
+    },
+    {
+      "name": "FoodBeverageTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DegradesTwiceAsNormal",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 125
+        },
+        {
+          "name": "DegradesFourTimesAfterSellIn",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 132
+        },
+        {
+          "name": "QualityNeverBelowZero",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 138
+        }
+      ]
+    },
+    {
+      "name": "BackstageBoundary\/BackstagePassTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "QualityUpdate\/0",
+          "value_param": "(15, 20, 21)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/1",
+          "value_param": "(11, 20, 21)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/2",
+          "value_param": "(10, 20, 22)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/3",
+          "value_param": "(6, 20, 22)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/4",
+          "value_param": "(5, 20, 23)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/5",
+          "value_param": "(1, 20, 23)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/6",
+          "value_param": "(0, 20, 0)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/7",
+          "value_param": "(5, 50, 50)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "QualityUpdate\/8",
+          "value_param": "(0, 50, 0)",
+          "file": "C:\\DEV\\GildedRose_11\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 117
+        }
+      ]
+    }
+  ]
+}
